@@ -1,5 +1,4 @@
 # Equivariant Hypergraph Neural Networks (to be released)
-[ECCV'22] (To be released) Equivariant Hypergraph Neural Networks, in PyTorch
 
 We are planning to release the code during July.
 

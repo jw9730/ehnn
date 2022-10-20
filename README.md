@@ -21,7 +21,7 @@ docker run -it --gpus=all --ipc=host --name=ehnn -v /home:/home jw9730/ehnn:late
 
 Using the provided ```Dockerfile```
 ```bash
-git clone --recursive https://github.com/jw9730/ehnn.git /ehnn
+git clone https://github.com/jw9730/ehnn.git /ehnn
 cd ehnn
 docker build --no-cache --tag ehnn:latest .
 docker run -it --gpus all --ipc=host --name=ehnn -v /home:/home ehnn:latest bash

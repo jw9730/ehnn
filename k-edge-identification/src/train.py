@@ -273,7 +273,6 @@ if __name__ == '__main__':
     parser.add_argument('--ehnn_force_broadcast', type=str, default='False', help='force broadcast based pe')
     parser.add_argument('--ehnn_input_dropout', type=float, default=0., help='input dropout rate')
     parser.add_argument('--ehnn_mlp_classifier', type=str, default='True', help='mlp classifier head')
-    parser.add_argument('--ehnn_slack_channel', type=str, default="None", help='manual slack channel assignment')
     parser.add_argument('--ehnn_naive_use_hypernet', action='store_true')
 
     args = parser.parse_args()
